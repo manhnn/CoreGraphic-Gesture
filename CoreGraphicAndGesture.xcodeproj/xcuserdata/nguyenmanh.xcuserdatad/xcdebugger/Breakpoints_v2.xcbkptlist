@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E64EDF4C-950B-4D76-87C2-B05DD966C8AD"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6693F655-875A-47CF-8370-BF6362C62F7D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CoreGraphic/CoreGraphicViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "6693F655-875A-47CF-8370-BF6362C62F7D - 7e110b7756dde490"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoreGraphicAndGesture.CustomView.__deallocating_deinit"
+                  moduleName = "CoreGraphicAndGesture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenmanh/Documents/Learn_iOS_Solar/CoreGraphicAndGesture/CoreGraphic/CoreGraphicViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "6693F655-875A-47CF-8370-BF6362C62F7D - 3382aa8a76fc5f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoreGraphicAndGesture.CustomView.__allocating_init(frame: __C.CGRect) -&gt; CoreGraphicAndGesture.CustomView"
+                  moduleName = "CoreGraphicAndGesture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenmanh/Documents/Learn_iOS_Solar/CoreGraphicAndGesture/CoreGraphic/CoreGraphicViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  uuid = "6693F655-875A-47CF-8370-BF6362C62F7D - 7394268fdc2f725b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoreGraphicAndGesture.CustomView.init(frame: __C.CGRect) -&gt; CoreGraphicAndGesture.CustomView"
+                  moduleName = "CoreGraphicAndGesture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenmanh/Documents/Learn_iOS_Solar/CoreGraphicAndGesture/CoreGraphic/CoreGraphicViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "6693F655-875A-47CF-8370-BF6362C62F7D - 582a81f4cdb1a627"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoreGraphicAndGesture.CustomView.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CoreGraphicAndGesture.CustomView&gt;"
+                  moduleName = "CoreGraphicAndGesture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenmanh/Documents/Learn_iOS_Solar/CoreGraphicAndGesture/CoreGraphic/CoreGraphicViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "6693F655-875A-47CF-8370-BF6362C62F7D - c66d7d390b292e73"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CoreGraphicAndGesture.CustomView.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;CoreGraphicAndGesture.CustomView&gt;"
+                  moduleName = "CoreGraphicAndGesture"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nguyenmanh/Documents/Learn_iOS_Solar/CoreGraphicAndGesture/CoreGraphic/CoreGraphicViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "36">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
