@@ -20,8 +20,8 @@ class CoreGraphicViewController: UIViewController {
     }
     
     @IBAction func nextPage(_ sender: Any) {
-        let birdViewController = BirdViewController()
-        self.navigationController?.pushViewController(birdViewController, animated: true)
+        let downViewController = DownloadViewController()
+        self.navigationController?.pushViewController(downViewController, animated: true)
     }
     
 }
@@ -72,14 +72,14 @@ class CustomView: UIView {
     }
     
     private func drawArc() {
-           guard let context = UIGraphicsGetCurrentContext() else { return }
-           context.setStrokeColor(UIColor.gray.cgColor)
-           context.setLineWidth(10.0)
+        guard let context = UIGraphicsGetCurrentContext() else { return }
+        context.setStrokeColor(UIColor.gray.cgColor)
+        context.setLineWidth(10.0)
            
         context.addArc(center: CGPoint(x: 100, y: 300), radius: 10, startAngle: 0, endAngle: (-3/2) * .pi, clockwise: true)
            
-           context.strokePath()
-       }
+        context.strokePath()
+    }
  
     
     
