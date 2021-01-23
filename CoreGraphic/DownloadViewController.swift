@@ -15,10 +15,10 @@ class DownloadViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        coreGraphicView.drawCircle()
+        //coreGraphicView.drawCircle()
     }
     @IBAction func downloadButton(_ sender: Any) {
-//        self.coreGraphicView.drawCircle()
+        self.coreGraphicView.drawCircle()
     }
 }
 

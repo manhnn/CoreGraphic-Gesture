@@ -14,6 +14,10 @@
 		25326F5925BA778300921AC1 /* CoreGraphicViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25326F5725BA778300921AC1 /* CoreGraphicViewController.xib */; };
 		25326F6425BAB97F00921AC1 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25326F6225BAB97F00921AC1 /* DownloadViewController.swift */; };
 		25326F6525BAB97F00921AC1 /* DownloadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25326F6325BAB97F00921AC1 /* DownloadViewController.xib */; };
+		25F4E67325BBFCD70007B7AE /* CutAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F4E67125BBFCD70007B7AE /* CutAudioViewController.swift */; };
+		25F4E67425BBFCD70007B7AE /* CutAudioViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25F4E67225BBFCD70007B7AE /* CutAudioViewController.xib */; };
+		25F4E67825BBFDAF0007B7AE /* CutAudioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F4E67725BBFDAF0007B7AE /* CutAudioView.swift */; };
+		25F4E67E25BC0F610007B7AE /* CutAudio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F4E67D25BC0F610007B7AE /* CutAudio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		25326F5725BA778300921AC1 /* CoreGraphicViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CoreGraphicViewController.xib; sourceTree = "<group>"; };
 		25326F6225BAB97F00921AC1 /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
 		25326F6325BAB97F00921AC1 /* DownloadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DownloadViewController.xib; sourceTree = "<group>"; };
+		25F4E67125BBFCD70007B7AE /* CutAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutAudioViewController.swift; sourceTree = "<group>"; };
+		25F4E67225BBFCD70007B7AE /* CutAudioViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CutAudioViewController.xib; sourceTree = "<group>"; };
+		25F4E67725BBFDAF0007B7AE /* CutAudioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutAudioView.swift; sourceTree = "<group>"; };
+		25F4E67D25BC0F610007B7AE /* CutAudio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CutAudio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +82,20 @@
 				25326F5725BA778300921AC1 /* CoreGraphicViewController.xib */,
 				25326F6225BAB97F00921AC1 /* DownloadViewController.swift */,
 				25326F6325BAB97F00921AC1 /* DownloadViewController.xib */,
+				25F4E67A25BC03180007B7AE /* LinesSegment */,
 			);
 			path = CoreGraphic;
+			sourceTree = "<group>";
+		};
+		25F4E67A25BC03180007B7AE /* LinesSegment */ = {
+			isa = PBXGroup;
+			children = (
+				25F4E67125BBFCD70007B7AE /* CutAudioViewController.swift */,
+				25F4E67225BBFCD70007B7AE /* CutAudioViewController.xib */,
+				25F4E67725BBFDAF0007B7AE /* CutAudioView.swift */,
+				25F4E67D25BC0F610007B7AE /* CutAudio.swift */,
+			);
+			path = LinesSegment;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +159,7 @@
 				25326F4625BA769E00921AC1 /* Assets.xcassets in Resources */,
 				25326F6525BAB97F00921AC1 /* DownloadViewController.xib in Resources */,
 				25326F5925BA778300921AC1 /* CoreGraphicViewController.xib in Resources */,
+				25F4E67425BBFCD70007B7AE /* CutAudioViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,6 +170,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25F4E67825BBFDAF0007B7AE /* CutAudioView.swift in Sources */,
+				25F4E67E25BC0F610007B7AE /* CutAudio.swift in Sources */,
+				25F4E67325BBFCD70007B7AE /* CutAudioViewController.swift in Sources */,
 				25326F5825BA778300921AC1 /* CoreGraphicViewController.swift in Sources */,
 				25326F6425BAB97F00921AC1 /* DownloadViewController.swift in Sources */,
 				25326F3D25BA769C00921AC1 /* AppDelegate.swift in Sources */,
