@@ -14,18 +14,18 @@ class CutAudio: UIView {
         context.setStrokeColor(UIColor.black.cgColor)
         context.setLineWidth(1)
         
-        var topPoint = CGPoint(x: -rect.height, y: 0)
-        var downPoint = CGPoint(x: 0, y: rect.height)
+        var topPointStart = CGPoint(x: -rect.height, y: 0)
+        var downPointStart = CGPoint(x: 0, y: rect.height)
         let distance = CGPoint(x: 10, y: 0)
         
-        while topPoint.x <= rect.width {
-            context.move(to: topPoint)
-            context.addLine(to: downPoint)
+        while topPointStart.x <= rect.width {
+            context.move(to: topPointStart)
+            context.addLine(to: downPointStart)
             
-            topPoint.x += distance.x
-            topPoint.y += distance.y
-            downPoint.x += distance.x
-            downPoint.y += distance.y
+            topPointStart.x += distance.x
+            topPointStart.y += distance.y
+            downPointStart.x += distance.x
+            downPointStart.y += distance.y
         }
         context.strokePath()
     }
