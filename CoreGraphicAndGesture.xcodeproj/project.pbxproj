@@ -82,12 +82,12 @@
 				25326F5725BA778300921AC1 /* CoreGraphicViewController.xib */,
 				25326F6225BAB97F00921AC1 /* DownloadViewController.swift */,
 				25326F6325BAB97F00921AC1 /* DownloadViewController.xib */,
-				25F4E67A25BC03180007B7AE /* LinesSegment */,
+				25F4E67A25BC03180007B7AE /* CutAudio */,
 			);
 			path = CoreGraphic;
 			sourceTree = "<group>";
 		};
-		25F4E67A25BC03180007B7AE /* LinesSegment */ = {
+		25F4E67A25BC03180007B7AE /* CutAudio */ = {
 			isa = PBXGroup;
 			children = (
 				25F4E67125BBFCD70007B7AE /* CutAudioViewController.swift */,
@@ -95,7 +95,7 @@
 				25F4E67725BBFDAF0007B7AE /* CutAudioView.swift */,
 				25F4E67D25BC0F610007B7AE /* CutAudio.swift */,
 			);
-			path = LinesSegment;
+			path = CutAudio;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
